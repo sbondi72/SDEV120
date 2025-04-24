@@ -1,0 +1,18 @@
+start 
+   set targetNumber to a random number between 1 and 100
+   set guess to 0
+   while guess is not equal to targetNumber
+      output "Enter your guess (1-100):"
+	  if guess < targetNumber then
+	     input "Too low, Try again."
+      else if guess > targetNumber then
+	     input "Too high, Try again."
+      else
+	     input "Congrats! You guessed the correct number."
+   endwhile
+end
+
+  
+	  
+	  
+   

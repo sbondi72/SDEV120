@@ -1,0 +1,19 @@
+start
+   set targetWord to "Music"
+   open the dictionary somewhere in the middle
+   
+   while
+      look at the word on the current page
+	  set currentWord to the word you see
+	  
+	  if currentWord < targetWord (alphabetically)
+	     then flip forward several pages
+      else if currentWord > targetWord (alphabetically)
+	     then flip backward several pages
+      else
+	     input "Found the right word: Music!"
+   endwhile
+end
+
+   
+  

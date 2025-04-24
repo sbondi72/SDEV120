@@ -1,0 +1,28 @@
+// My role: Moderator
+
+
+start
+   Declarations
+      number of questions = 25
+      timer = 10 seconds
+      total points = 0
+      players = 1 to 4
+
+   WHILE questions remain:
+      Display board
+      Prompt current player for category + value
+      Show question
+      Start 10 second timer
+      Get player answer
+         if its correct AND <= timer AND in form of a question
+            points added to total points
+         else
+            points deducted from total points
+         endif
+      Mark question as answered
+      Switch player
+
+   END GAME
+      Show final scores
+      Declare winner
+end
